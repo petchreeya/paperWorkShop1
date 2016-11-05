@@ -40,6 +40,12 @@
             android:layout_marginBottom="40dp"/>
 
         <EditText
+            android:id="@+id/edRedis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Display Name" />
+
+        <EditText
             android:id="@+id/edReUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
