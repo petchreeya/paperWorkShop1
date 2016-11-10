@@ -23,19 +23,16 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"/>
         <TextView
-            android:id="@+id/tvHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="หัวข้อข่าว"
             android:textSize="20dp"
             android:layout_marginTop="20dp"/>
         <TextView
-            android:id="@+id/tvDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="รายละเอียดข่าว"
             android:textSize="18dp"
             android:layout_marginTop="20dp"/>
     </LinearLayout>
-
 </RelativeLayout>

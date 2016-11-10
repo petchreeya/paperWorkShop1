@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.workshop.RegisterActivity">
+    tools:context="com.example.user.workshop.Register_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:layout_alignParentBottom="true">
 
         <Button
-            android:id="@+id/btReRegis"
+            android:id="@+id/btnRegist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register" />
@@ -40,26 +40,26 @@
             android:layout_marginBottom="40dp"/>
 
         <EditText
-            android:id="@+id/edRedis"
+            android:id="@+id/etDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Display Name" />
 
         <EditText
-            android:id="@+id/edReUser"
+            android:id="@+id/etUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username" />
 
         <EditText
-            android:id="@+id/edRePass"
+            android:id="@+id/etPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"/>
 
 
         <EditText
-            android:id="@+id/edReCon"
+            android:id="@+id/etPassCon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password Confirm" />
